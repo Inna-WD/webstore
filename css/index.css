@@ -7,14 +7,38 @@
   .logo{
       grid-column-start: 1;
       grid-column-end: 4;
+      height: 30px;
+
     }
 .fav-header{
     grid-column-start: 8;
     grid-column-end: 9;
-    size: 10px;
+    height: 30px;
+    width: 30px;
+
 }
 .notification-header{
     grid-column-start: 9;
     grid-column-end: 10;
-    size: 10px;
+    height: 30px;
+    width: 30px;
+}
+.cart-header{
+    grid-column-start: 10;
+    grid-column-end: 11;
+    height: 30px;
+    width: 30px;
+}
+
+.user-header{
+    grid-column-start: 11;
+    grid-column-end: 12;
+    height: 30px;
+    width: 30px;
+}
+
+.shop-header{
+    grid-column-start: 12;
+    height: 30px;
+    width: 30px;
 }
