@@ -2,5 +2,19 @@
 .grid-container-mobile {
     display: grid;
     grid-auto-columns: 1fr, 1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr;
-   
+    grid: gap 1px;
   }
+  .logo{
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+.fav-header{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    size: 10px;
+}
+.notification-header{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    size: 10px;
+}
