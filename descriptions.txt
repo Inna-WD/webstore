@@ -7,8 +7,12 @@ sold by: weight
 price: 19.99
 quantity: 12
 category:natural
+<<<<<<< HEAD
 favorite: no
 
+=======
+favorite:no
+>>>>>>> 0ae39911c0fd2ab06e97068a313e74b6fce1022b
 
 id: bp2
 name: Black onyx
@@ -19,8 +23,12 @@ sold by: strand
 price: 24.99
 quantity: 25
 category:natural
+<<<<<<< HEAD
 favorite: no
 
+=======
+favorite:no
+>>>>>>> 0ae39911c0fd2ab06e97068a313e74b6fce1022b
 
 
 id: bp3
@@ -32,8 +40,12 @@ sold by: strand
 price: 29.99
 quantity: 11
 category:natural
+<<<<<<< HEAD
 favorite: no
 
+=======
+favorite:no
+>>>>>>> 0ae39911c0fd2ab06e97068a313e74b6fce1022b
 
 id: bp4
 name: Obsidian 
@@ -44,6 +56,7 @@ sold by: strand
 price: 29.99
 quantity: 11
 category:natural
+<<<<<<< HEAD
 favorite: no
 
 id: bp5
@@ -279,6 +292,52 @@ favorite: no
 
 
 
+=======
+favorite:no
+
+bp5
+Bead, black agate (dyed), 26x17mm-32x23mm freeform with 0.5-1.5mm hole, B grade, Mohs hardness 6-1/2 to 7. Sold per 8-inch strand, approximately 5 beads.
+wp1
+Focal, magnesite (stabilized), white, 20x5mm-39x5mm graduated spike fan, B grade, Mohs hardness 3-1/2 to 4. Sold per 10-piece set.
+wp2
+Bead, selenite (natural), mini to small hand-cut undrilled chip, Mohs hardness 2 to 2-1/2. Sold per 2-ounce pkg.
+wp3
+Bead, white howlite (natural), 8mm round, B grade, Mohs hardness 3 to 3-1/2. Sold per 15-1/2" to 16" strand.
+wp4
+Bead, white howlite (natural), 6mm round, C grade, Mohs hardness 3 to 3-1/2. Sold per pkg of (10) 15-1/2" to 16" strands.
+wp5
+Bead, Czech pressed glass, opaque white, 9.5x3mm ring with 3.5mm hole. Sold per pkg of 50.
+sp1
+Seed bead, Delica�, glass, Duracoat� opaque galvanized silver, (DB1831), #11 round. Sold per 7.5-gram pkg.
+sp2
+Bead, painted Taiwanese cheesewood (coated), metallic silver, 19-20mm round with 2.5-3mm hole. Sold per 15-1/2" to 16" strand.
+sp3
+Bead, acrylic, silver, 8mm round with stars, 1.75mm hole. Sold per pkg of 100.
+sp4
+Bead mix, acrylic, opaque silver and black, 7mm double-sided flat round with alphabet letters. Sold per pkg of 200.
+sp5
+Bead, Swarovski� crystals, crystal silver night, 4mm Xilion bicone (5328). Sold per pkg of 48.
+blp1
+Bead, lampworked glass, multicolored, 22mm double-sided puffed flat round with heart pattern. Sold per pkg of 2.
+blp2
+Bead, Swarovski� crystals, Capri blue, 6mm Xilion bicone (5328). Sold per pkg of 24.
+blp3
+Bead, lapis lazuli (natural), medium chip, Mohs hardness 5 to 6. Sold per 36-inch strand.
+blp4
+Bead, Celestial Crystal�, transparent turquoise blue, 10x3.5mm / 8x3mm / 6x2mm margarita flower. Sold per pkg of 12.
+blp5
+Bead mix, lampworked glass, turquoise blue with fancy finish, 7x4mm-14x11mm mixed shapes. Sold per pkg of 100-grams, approximately 60-100 beads.
+rp1
+Bead, lampworked glass, multicolored, 28x17mm-31x17mm cardinal with folded wings and 2.6mm hole. Sold per pkg of 2.
+rp2
+Inlay chip, "coral" (resin) (imitation), red, mini undrilled chip. Sold per 50-gram pkg, approximately 550-700 pieces.
+rp3
+Bead, Swarovski� crystals, Siam, 10mm faceted heart (5742). Sold per pkg of 2.
+rp4
+Bead, crystal and antique silver-plated "pewter" (zinc-based alloy), transparent red and clear, 23mm angel. Sold per pkg of 4.
+rp5
+Bead, lampworked glass, white and red, 23x14mm Santa. Sold per pkg of 2.
+>>>>>>> 0ae39911c0fd2ab06e97068a313e74b6fce1022b
 
 Disclamer:
 My crafts is committed to complying with applicable federal and state laws concerning the safety of consumer products. Importantly, Canada have enacted laws with strict content standards for products intended for children and,  in some cases, specific testing and certification. Products sold by My Crafts are intended for experienced jewelry-makers and designer-artists; children 14 years of age or younger should use these products with adult direction.
