@@ -337,12 +337,15 @@ const getProductAsHtmlString = product => {
           <li>Color: <strong>${product.color} </strong></li>
           <li>Material: <strong>${product.material} </strong></li>
           <li> Sold by: ${product.soldBy}</li>
-          <li> Price: $ ${product.price}</li>
+         
           <li> Qty in stock: ${product.quantity}</li>
           <li> Category: ${product.category}</li>
           <li> Favorite: ${product.favorite}</li>
           <li><img src="${product.image}"></li>
-        </ul>
+          <li>$ ${product.price}     <a href="#">     More --></a>
+          <img class="fav-product" src="img/favorite.png" alt="favorite">
+          <img class="fav-product" src="img/cart.png" alt="cart"></li>
+          </ul>
       </article>`;
 }
       document.getElementById('products').innerHTML = allProducts.map(getProductAsHtmlString).join('\n')
