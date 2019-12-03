@@ -9,7 +9,10 @@ const allProducts = [
         price: 19.99,
         quantity: 12,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/blackproduct1.png"
+
+
     }, {
         id: `bp2`,
         name: `Black onyx`,
@@ -20,7 +23,9 @@ const allProducts = [
         price: 24.99,
         quantity: 25,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/blackproduct2.png"
+
     }, {
         id: `bp3`,
         name: `Lava rock`,
@@ -31,7 +36,9 @@ const allProducts = [
         price: 29.99,
         quantity: 11,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/blackproduct3.png"
+
     }, {
         id: `bp4`,
         name: `Obsidian `,
@@ -42,7 +49,9 @@ const allProducts = [
         price: 29.99,
         quantity: 11,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/blackproduct4.png"
+
     }, {
         id: `bp5`,
         name: `Agate`,
@@ -53,7 +62,9 @@ const allProducts = [
         price: 34.99,
         quantity: 5,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/blackproduct5.png"
+
     }, {
         id: `wp1`,
         name: `Magnesite`,
@@ -64,7 +75,8 @@ const allProducts = [
         price: 19.99,
         quantity: 43,
         category: `acrylic`,
-        favorite: false
+        favorite: false,
+        image: "img/whiteproduct1.png"
     }, {
         id: `wp2`,
         name: `Selenite`,
@@ -75,7 +87,9 @@ const allProducts = [
         price: 24.99,
         quantity: 4,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/whiteproduct2.png"
+
     }, {
         id: `wp3 `,
         name: `Howlite`,
@@ -86,7 +100,9 @@ const allProducts = [
         price: 29.99,
         quantity: 5,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/whiteproduct3.png"
+
     }, {
         id: `wp4`,
         name: `Howlite`,
@@ -97,7 +113,9 @@ const allProducts = [
         price: 34.99,
         quantity: 45,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/whiteproduct4.png"
+
     }, {
         id: `wp5`,
         name: `Czech glass`,
@@ -108,7 +126,9 @@ const allProducts = [
         price: 39.99,
         quantity: 21,
         category: `plastic`,
-        favorite: false
+        favorite: false,
+        image: "img/whiteproduct5.png"
+
     }, {
         id: `gp1`,
         name: `Delica`,
@@ -119,7 +139,9 @@ const allProducts = [
         price: 19.99,
         quantity: 3,
         category: `acrylic`,
-        favorite: false
+        favorite: false,
+        image: "img/greyproduct1.png"
+
     }, {
         id: `gp2`,
         name: `Cheesewood`,
@@ -130,7 +152,9 @@ const allProducts = [
         price: 24.99,
         quantity: 69,
         category: `plastic`,
-        favorite: false
+        favorite: false,
+        image: "img/greyproduct2.png"
+
     }, {
         id: `gp3`,
         name: `Bead`,
@@ -141,7 +165,9 @@ const allProducts = [
         price: 29.99,
         quantity: 5,
         category: `acrylic`,
-        favorite: false
+        favorite: false,
+        image: "img/greyproduct3.png"
+
     }, {
         id: `gp4`,
         name: `Bead mix`,
@@ -152,7 +178,9 @@ const allProducts = [
         price: 34.99,
         quantity: 7,
         category: `acrylic`,
-        favorite: false
+        favorite: false,
+        image: "img/greyproduct4.png"
+
     }, {
         id: `gp5`,
         name: `Bead crystals`,
@@ -163,7 +191,9 @@ const allProducts = [
         price: 39.99,
         quantity: 8,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/greyproduct5.png"
+
     }, {
         id: `blp1`,
         name: `Lampworked glass `,
@@ -174,7 +204,9 @@ const allProducts = [
         price: 19.99,
         quantity: 54,
         category: `plastic`,
-        favorite: false
+        favorite: false,
+        image: "img/blueproduct1.png"
+
     }, {
         id: `blp2`,
         name: `Carpi blue`,
@@ -185,7 +217,9 @@ const allProducts = [
         price: 24.99,
         quantity: 14,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/blueproduct2.png"
+
     }, {
         id: `blp3`,
         name: `Lapis lazuli`,
@@ -196,7 +230,9 @@ const allProducts = [
         price: 29.99,
         quantity: 45,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/blueproduct3.png"
+
     }, {
         id: `blp4`,
         name: `Celestial glass`,
@@ -207,7 +243,9 @@ const allProducts = [
         price: 34.99,
         quantity: 12,
         category: `plastic`,
-        favorite: false
+        favorite: false,
+        image: "img/blueproduct4.png"
+
     }, {
         id: `blp5`,
         name: `Turquoise glass`,
@@ -218,7 +256,9 @@ const allProducts = [
         price: 39.99,
         quantity: 23,
         category: `acrylic`,
-        favorite: false
+        favorite: false,
+        image: "img/blueproduct5.png"
+
     }, {
         id: `rp1 `,
         name: `Multicolored glass`,
@@ -229,10 +269,12 @@ const allProducts = [
         price: 19.99,
         quantity: 87,
         category: `acrylic`,
-        favorite: false
+        favorite: false,
+        image: "img/redproduct1.png"
+
     }, {
         id: `rp2`,
-        name: `Inlay chip  `,
+        name: `Inlay chip`,
         desc: `Inlay chip, "coral" (resin) (imitation), red, mini undrilled chip. Sold per 50-gram pkg, approximately 550-700 pieces.`,
         color: `red`,
         material: `stone`,
@@ -240,7 +282,10 @@ const allProducts = [
         price: 24.99,
         quantity: 12,
         category: `acrylic`,
-        favorite: false
+        favorite: false,
+        image: "img/redproduct2.png"
+
+
     }, {
         id: `rp3`,
         name: `Siam`,
@@ -251,7 +296,9 @@ const allProducts = [
         price: 29.99,
         quantity: 45,
         category: `natural`,
-        favorite: false
+        favorite: false,
+        image: "img/redproduct3.png"
+
     }, {
         id: `rp4`,
         name: `Pewter`,
@@ -262,7 +309,9 @@ const allProducts = [
         price: 34.99,
         quantity: 54,
         category: `plastic`,
-        favorite: false
+        favorite: false,
+        image: "img/redproduct4.png"
+
     }, { 
         id: `rp5`,
         name: `Santa`,
@@ -292,7 +341,7 @@ const getProductAsHtmlString = product => {
           <li> Qty in stock: ${product.quantity}</li>
           <li> Category: ${product.category}</li>
           <li> Favorite: ${product.favorite}</li>
-          <li> ${product.image}</li>
+          <li><img src="${product.image}"></li>
         </ul>
       </article>`;
 }
