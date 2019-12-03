@@ -277,7 +277,7 @@ const allProducts = [
     }
 ];
 
-const getProductAsHtmlString = (product) => {
+const getProductAsHtmlString = product => {
     return `
       <article class="product">
         <h3 >${product.name}</h3>

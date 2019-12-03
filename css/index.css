@@ -61,8 +61,7 @@
     }
   .toggle-view{
     font-family: 'Ruda', sans-serif;
-        grid-column-start: 11;
-        grid-column-end: 12;
+        grid-column-start: 12;
         height: 30px;
         justify-self: start;
     }
@@ -78,6 +77,7 @@
 }
 
 .product {
+    font-family: 'Ruda', sans-serif;
     background-color: white;
     padding: 0 1em;
     overflow: hidden;
