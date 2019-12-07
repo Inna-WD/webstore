@@ -312,7 +312,7 @@ const allProducts = [
         favorite: false,
         image: "img/redproduct4.png"
 
-    }, { 
+    }, {
         id: `rp5`,
         name: `Santa`,
         desc: `Bead, lampworked glass, white and red, 23x14mm Santa. Sold per pkg of 2.`,
@@ -326,7 +326,7 @@ const allProducts = [
         image: "img/redproduct5.png"
     }
 ];
-
+// creating the output format of each product
 const getProductAsHtmlString = product => {
     return `
       <article class="product">
@@ -349,4 +349,81 @@ const getProductAsHtmlString = product => {
           </ul>
       </article>`;
 }
-      document.getElementById('products').innerHTML = allProducts.map(getProductAsHtmlString).join('\n')
+
+
+//   check what values were checked in the filter window//
+const getCheckedValues = id => {
+    let checkedValues = [];
+    const inputSet = document.getElementById(id);
+    let inputElements = inputSet.getElementsByTagName('input');
+    for (let i = 0; i < inputElements.length; i++) {
+        if (inputElements[i].checked) {
+            checkedValues.push(inputElements[i].value);
+        }
+    };
+    return checkedValues;
+};
+// console.log("checkedValues")
+
+const getSortingType = () => {
+    const select = document.getElementById("sort");
+    let optionValue = select.value;
+    return optionValue;
+
+const getSearchType = () => {
+    const searchInput = document.getElementById("find");
+    const searchInputValue = searchInput.value;
+    return searchInputValue;
+
+
+const getFilteredProducts = () => {
+
+// Filtering by color and by material
+    const colorValues = getCheckedValues("colourFilter");
+    const materialValues = getCheckedValues("materialFilter");
+    let filteredProducts = allProducts;
+    if (colorValues.length > 0) {
+        filteredProducts = filteredProducts.filter(product => colorValues.includes(product.color));
+    }
+
+    if (materialValues.length > 0) {
+        filteredProducts = filteredProducts.filter(product => materialValues.includes(product.material));
+    }
+
+     // Sort
+     const sortingType = getSortingType();
+
+     switch (sortingType) {
+         case "price-high":
+             filteredProducts.sort((a, b) => b.price - a.price);
+             break;
+         case "price-low":
+             filteredProducts.sort((a, b) => a.price - b.price);
+             break;
+         case "fav":
+             filteredProducts.sort((a, b) => {
+                 if (a.favorite === b.favorite) {
+                     return 0;
+                 };
+ 
+                 if (a.favorite === true) {
+                     return -1;
+                 };
+ 
+                 return 1;
+             });
+             break;
+     };
+ 
+     // Searching 
+     const inputValue = getSearchType();
+     if (inputValue.length !== 0) {
+         filteredProducts = filteredProducts.filter(product => product.name.toUpperCase().includes(inputValue.toUpperCase()));
+     };
+ 
+     document.getElementById('products').innerHTML = filteredProducts.map(getProductAsHtmlString).join('\n');
+ };
+ 
+ document.getElementById('products').innerHTML = allProducts.map(getProductAsHtmlString).join('\n')
+
+
