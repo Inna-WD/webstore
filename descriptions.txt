@@ -21,8 +21,6 @@ category:natural
 favorite: no
 
 
-
-
 id: bp3
 name: Lava rock
 desc: Bead, lava rock (waxed), 8mm round with 0.5-1.5mm hole, B grade, Mohs hardness 3 to 3-1/2. Sold per 15-1/2" to 16" strand.
