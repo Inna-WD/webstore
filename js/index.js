@@ -1,3 +1,4 @@
+// declaring all the products as an array elements
 const allProducts = [
     {
         id: `bp1`,
@@ -350,7 +351,6 @@ const getProductAsHtmlString = product => {
       </article>`;
 }
 
-
 //   check what values were checked in the filter window//
 const getCheckedValues = id => {
     let checkedValues = [];
@@ -370,60 +370,58 @@ const getSortingType = () => {
     let optionValue = select.value;
     return optionValue;
 
-const getSearchType = () => {
-    const searchInput = document.getElementById("find");
-    const searchInputValue = searchInput.value;
-    return searchInputValue;
+    const getSearchType = () => {
+        const searchInput = document.getElementById("find");
+        const searchInputValue = searchInput.value;
+        return searchInputValue;
 
+        // Filtering by color and by material
+        const getFilteredProducts = () => {
+            const colorValues = getCheckedValues("colourFilter");
+            const materialValues = getCheckedValues("materialFilter");
+            let filteredProducts = allProducts;
+            if (colorValues.length > 0) {
+                filteredProducts = filteredProducts.filter(product => colorValues.includes(product.color));
+            }
 
-const getFilteredProducts = () => {
+            if (materialValues.length > 0) {
+                filteredProducts = filteredProducts.filter(product => materialValues.includes(product.material));
+            }
 
-// Filtering by color and by material
-    const colorValues = getCheckedValues("colourFilter");
-    const materialValues = getCheckedValues("materialFilter");
-    let filteredProducts = allProducts;
-    if (colorValues.length > 0) {
-        filteredProducts = filteredProducts.filter(product => colorValues.includes(product.color));
+            // Sort
+            const sortingType = getSortingType();
+
+            switch (sortingType) {
+                case "price-high":
+                    filteredProducts.sort((a, b) => b.price - a.price);
+                    break;
+                case "price-low":
+                    filteredProducts.sort((a, b) => a.price - b.price);
+                    break;
+                case "fav":
+                    filteredProducts.sort((a, b) => {
+                        if (a.favorite === b.favorite) {
+                            return 0;
+                        };
+
+                        if (a.favorite === true) {
+                            return -1;
+                        };
+
+                        return 1;
+                    });
+                    break;
+            };
+
+            // Searching 
+            const inputValue = getSearchType();
+            if (inputValue.length !== 0) {
+                filteredProducts = filteredProducts.filter(product => product.name.toUpperCase().includes(inputValue.toUpperCase()));
+            };
+
+            document.getElementById('products').innerHTML = filteredProducts.map(getProductAsHtmlString).join('\n');
+        };
+
+        document.getElementById('products').innerHTML = allProducts.map(getProductAsHtmlString).join('\n')
+
     }
-
-    if (materialValues.length > 0) {
-        filteredProducts = filteredProducts.filter(product => materialValues.includes(product.material));
-    }
-
-     // Sort
-     const sortingType = getSortingType();
-
-     switch (sortingType) {
-         case "price-high":
-             filteredProducts.sort((a, b) => b.price - a.price);
-             break;
-         case "price-low":
-             filteredProducts.sort((a, b) => a.price - b.price);
-             break;
-         case "fav":
-             filteredProducts.sort((a, b) => {
-                 if (a.favorite === b.favorite) {
-                     return 0;
-                 };
- 
-                 if (a.favorite === true) {
-                     return -1;
-                 };
- 
-                 return 1;
-             });
-             break;
-     };
- 
-     // Searching 
-     const inputValue = getSearchType();
-     if (inputValue.length !== 0) {
-         filteredProducts = filteredProducts.filter(product => product.name.toUpperCase().includes(inputValue.toUpperCase()));
-     };
- 
-     document.getElementById('products').innerHTML = filteredProducts.map(getProductAsHtmlString).join('\n');
- };
- 
- document.getElementById('products').innerHTML = allProducts.map(getProductAsHtmlString).join('\n')
-
-
