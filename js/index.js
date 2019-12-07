@@ -283,11 +283,10 @@ const getProductAsHtmlString = (product) => {
         <h3 >${product.name}</h3>
         <ul>
           <li>Product Id: <strong>${product.id}</strong></li>
-          <li>Product description: <strong>${product.desc}</strong></li>
+          <li>Product description:${product.desc}</li>
           <li>Color: <strong>${product.color} </strong></li>
           <li>Material: <strong>${product.material} </strong></li>
         </ul>
       </article>`;
 }
       document.getElementById('products').innerHTML = allProducts.map(getProductAsHtmlString).join('\n')
-}
