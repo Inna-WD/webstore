@@ -45,19 +45,19 @@
 
 /* search container grid */
 .grid-container-search {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-auto-columns: 30px auto 30px;
     grid: gap 1px;
 }
   .menu{
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Montserrat', sans-serif;
       grid-column-start: 1;
       grid-column-end: 2;
       height: 30px;
 }
   .toggle-view{
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Montserrat', sans-serif;
         grid-column-start: 12;
         height: 30px;
         justify-self: start;
@@ -73,7 +73,7 @@
 }
 
 .product {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     padding: 0 1em;
     overflow: hidden;
@@ -81,7 +81,7 @@
     margin: 1em 0;
 }
   .productTitle{
-      font-family: 'Ruda', sans-serif;
+    font-family: 'Montserrat', sans-serif;
       font-size: 1.5em;
 }
 

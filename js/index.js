@@ -413,7 +413,7 @@ const getFilteredProducts = () => {
             break;
     };
 
-    // Search
+    // Search case non sesitive
     const inputValue = getSearchType();
     if (inputValue.length !== 0) {
         filteredProducts = filteredProducts.filter(product => product.name.toUpperCase().includes(inputValue.toUpperCase()));

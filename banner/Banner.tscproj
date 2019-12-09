@@ -6,7 +6,7 @@
   "shouldApplyLoudnessNormalization" : true,
   "videoFormatFrameRate" : 30,
   "audioFormatSampleRate" : 44100,
-  "width" : 780.0,
+  "width" : 1020.0,
   "height" : 240.0,
   "version" : "3.0",
   "editRate" : 30,
@@ -40,7 +40,7 @@
       "id" : 2,
       "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo 2.png",
       "rect" : [0, 0, 270, 90],
-      "lastMod" : "20191127T211630",
+      "lastMod" : "not-a-date-time",
       "sourceTracks" : [
         {
           "range" : [0, 1],
@@ -60,7 +60,7 @@
       "id" : 3,
       "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo 1st.png",
       "rect" : [0, 0, 270, 90],
-      "lastMod" : "20191201T192012",
+      "lastMod" : "not-a-date-time",
       "sourceTracks" : [
         {
           "range" : [0, 1],
@@ -80,7 +80,7 @@
       "id" : 4,
       "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo 2nd.png",
       "rect" : [0, 0, 270, 90],
-      "lastMod" : "20191201T192129",
+      "lastMod" : "not-a-date-time",
       "sourceTracks" : [
         {
           "range" : [0, 1],
@@ -100,7 +100,7 @@
       "id" : 5,
       "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo 3rd.png",
       "rect" : [0, 0, 270, 90],
-      "lastMod" : "20191201T192211",
+      "lastMod" : "not-a-date-time",
       "sourceTracks" : [
         {
           "range" : [0, 1],
@@ -120,7 +120,7 @@
       "id" : 6,
       "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo 4th.png",
       "rect" : [0, 0, 270, 90],
-      "lastMod" : "20191201T192253",
+      "lastMod" : "not-a-date-time",
       "sourceTracks" : [
         {
           "range" : [0, 1],
@@ -135,10 +135,130 @@
           "metaData" : ""
         }
       ]
+    },
+    {
+      "id" : 7,
+      "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo-assets\\logo 2.png",
+      "rect" : [0, 0, 2700, 900],
+      "lastMod" : "20191207T211405",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 2700, 900],
+          "sampleRate" : 0,
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ]
+    },
+    {
+      "id" : 8,
+      "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo-assets\\logo 3.png",
+      "rect" : [0, 0, 2700, 900],
+      "lastMod" : "20191207T211605",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 2700, 900],
+          "sampleRate" : 0,
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ]
+    },
+    {
+      "id" : 9,
+      "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo-assets\\logo 4.png",
+      "rect" : [0, 0, 2700, 900],
+      "lastMod" : "20191207T211703",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 2700, 900],
+          "sampleRate" : 0,
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ]
+    },
+    {
+      "id" : 10,
+      "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo-assets\\logo 5.png",
+      "rect" : [0, 0, 2700, 900],
+      "lastMod" : "20191207T211742",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 2700, 900],
+          "sampleRate" : 0,
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ]
+    },
+    {
+      "id" : 11,
+      "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo-assets\\logo 6.png",
+      "rect" : [0, 0, 2700, 900],
+      "lastMod" : "20191207T211832",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 2700, 900],
+          "sampleRate" : 0,
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ]
+    },
+    {
+      "id" : 12,
+      "src" : "C:\\Users\\Guy\\Desktop\\Humber\\Webstore\\webstore\\img\\logo-assets\\logo1.png",
+      "rect" : [0, 0, 2700, 900],
+      "lastMod" : "20191207T211141",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 2700, 900],
+          "sampleRate" : 0,
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ]
     }
   ],
   "timeline" : {
-    "id" : 7,
+    "id" : 13,
     "sceneTrack" : {
       "scenes" : [
         {
@@ -151,13 +271,19 @@
                 "trackIndex" : 0,
                 "medias" : [
                   {
-                    "id" : 8,
+                    "id" : 14,
                     "_type" : "IMFile",
                     "src" : 1,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
                       "ident" : "bkgr"
+                    },
+                    "parameters" : {
+                      "translation0" : 3.94351218346856e-11,
+                      "translation1" : -3.00000000004927,
+                      "scale0" : 1.33269230769248,
+                      "scale1" : 1.33269230769248
                     },
                     "effects" : [
 
@@ -169,6 +295,8 @@
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
                       "default-translation0" : 0.0,
                       "default-translation1" : 0.0
                     },
@@ -182,7 +310,7 @@
                 "trackIndex" : 1,
                 "medias" : [
                   {
-                    "id" : 9,
+                    "id" : 15,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -221,8 +349,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -292.814590367904,
-                      "translation1" : -83.4999983994737
+                      "translation0" : -8.19307725401627,
+                      "translation1" : -83.4999983995099
                     },
                     "effects" : [
 
@@ -246,49 +374,32 @@
                     }
                   },
                   {
-                    "id" : 10,
+                    "id" : 16,
                     "_type" : "IMFile",
-                    "src" : 2,
+                    "src" : 12,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 2"
+                      "ident" : "logo1"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
                     "start" : 419,
-                    "duration" : 181,
+                    "duration" : 154,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-rotation2" : 0.0,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
+                      "default-scale0" : 0.266666666666667,
+                      "default-scale1" : 0.266666666666667,
                       "default-translation0" : 0.0,
                       "default-translation1" : 0.0
                     },
@@ -302,7 +413,7 @@
                 "trackIndex" : 2,
                 "medias" : [
                   {
-                    "id" : 11,
+                    "id" : 17,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -341,8 +452,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -88.5428430949628,
-                      "translation1" : -85.6981229336038
+                      "translation0" : 401.704631720507,
+                      "translation1" : -84.666666301993
                     },
                     "effects" : [
 
@@ -366,50 +477,32 @@
                     }
                   },
                   {
-                    "id" : 12,
+                    "id" : 18,
                     "_type" : "IMFile",
-                    "src" : 4,
+                    "src" : 7,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 2nd"
+                      "ident" : "logo 2"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 436,
-                    "duration" : 164,
+                    "start" : 426,
+                    "duration" : 147,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -421,15 +514,15 @@
                 "trackIndex" : 3,
                 "medias" : [
                   {
-                    "id" : 13,
+                    "id" : 19,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 39.3159452044093,
+                      "height" : 64.273914730104,
                       "line-spacing" : 0.0,
-                      "width" : 174.496339639318,
+                      "width" : 270.736889642542,
                       "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
@@ -450,7 +543,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"fontName","rangeEnd":5,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"underline","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":5,"rangeStart":0,"value":"(207,99,40,255)","valueType":"color"},{"name":"kerning","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":5,"rangeStart":0,"value":96,"valueType":"double"},{"name":"fontWeight","rangeEnd":5,"rangeStart":0,"value":400,"valueType":"int"}],
+                            "value" : [{"name":"fontSize","rangeEnd":5,"rangeStart":0,"value":60,"valueType":"double"},{"name":"fontName","rangeEnd":5,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"underline","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":5,"rangeStart":0,"value":400,"valueType":"int"},{"name":"strikethrough","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":5,"rangeStart":0,"value":"(207,99,40,255)","valueType":"color"},{"name":"kerning","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"double"}],
                             "duration" : 0
                           }
                         ]
@@ -460,8 +553,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -45.6508529617256,
-                      "translation1" : 56.4346723919215
+                      "translation0" : 421.670327901852,
+                      "translation1" : 95.5522689819039
                     },
                     "effects" : [
 
@@ -477,6 +570,7 @@
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
+                      "default-text-attributes" : "[{\"name\":\"fontName\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":\"Adobe Kaiti Std R\",\"valueType\":\"string\"},{\"name\":\"underline\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"strikethrough\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fgColor\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":\"(207,99,40,255)\",\"valueType\":\"color\"},{\"name\":\"kerning\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"},{\"name\":\"fontItalic\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontSize\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":96,\"valueType\":\"double\"},{\"name\":\"fontWeight\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"}]",
                       "default-translation0" : -82.5,
                       "default-translation1" : -3.00000000001286
                     },
@@ -485,50 +579,32 @@
                     }
                   },
                   {
-                    "id" : 14,
+                    "id" : 20,
                     "_type" : "IMFile",
-                    "src" : 3,
+                    "src" : 8,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 1st"
+                      "ident" : "logo 3"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 450,
-                    "duration" : 150,
+                    "start" : 431,
+                    "duration" : 142,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -540,7 +616,7 @@
                 "trackIndex" : 4,
                 "medias" : [
                   {
-                    "id" : 15,
+                    "id" : 21,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -579,8 +655,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -84.7044731162643,
-                      "translation1" : -27.2542762549851
+                      "translation0" : 403.999278037064,
+                      "translation1" : 32.2629970269203
                     },
                     "effects" : [
 
@@ -604,50 +680,32 @@
                     }
                   },
                   {
-                    "id" : 16,
+                    "id" : 22,
                     "_type" : "IMFile",
-                    "src" : 4,
+                    "src" : 9,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 2nd"
+                      "ident" : "logo 4"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 461,
-                    "duration" : 139,
+                    "start" : 438,
+                    "duration" : 135,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -659,15 +717,15 @@
                 "trackIndex" : 5,
                 "medias" : [
                   {
-                    "id" : 17,
+                    "id" : 23,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 106.081169886034,
+                      "height" : 113.895458412571,
                       "line-spacing" : 0.0,
-                      "width" : 244.024361440853,
+                      "width" : 262.0,
                       "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
@@ -688,7 +746,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"strikethrough","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":9,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontWeight","rangeEnd":9,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontSize","rangeEnd":9,"rangeStart":0,"value":96,"valueType":"double"},{"name":"underline","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":9,"rangeStart":0,"value":"(239,80,31,255)","valueType":"color"},{"name":"fontItalic","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"double"}],
+                            "value" : [{"name":"fontItalic","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":9,"rangeStart":0,"value":55,"valueType":"double"},{"name":"underline","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":9,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fgColor","rangeEnd":9,"rangeStart":0,"value":"(239,80,31,255)","valueType":"color"},{"name":"kerning","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontName","rangeEnd":9,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"strikethrough","rangeEnd":9,"rangeStart":0,"value":0,"valueType":"int"}],
                             "duration" : 0
                           }
                         ]
@@ -698,8 +756,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -121.524364863482,
-                      "translation1" : 98.9594160065307
+                      "translation0" : 184.791312664161,
+                      "translation1" : 63.104539775642
                     },
                     "effects" : [
 
@@ -715,6 +773,7 @@
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
+                      "default-text-attributes" : "[{\"name\":\"strikethrough\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontName\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":\"Adobe Kaiti Std R\",\"valueType\":\"string\"},{\"name\":\"fontWeight\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"},{\"name\":\"fontSize\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":96,\"valueType\":\"double\"},{\"name\":\"underline\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fgColor\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":\"(239,80,31,255)\",\"valueType\":\"color\"},{\"name\":\"fontItalic\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"kerning\",\"rangeEnd\":9,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"}]",
                       "default-translation0" : -82.5,
                       "default-translation1" : -3.00000000001286
                     },
@@ -723,50 +782,32 @@
                     }
                   },
                   {
-                    "id" : 18,
+                    "id" : 24,
                     "_type" : "IMFile",
-                    "src" : 5,
+                    "src" : 10,
                     "trackNumber" : 0,
-                    "trimStartSum" : -1,
+                    "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 3rd"
+                      "ident" : "logo 5"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 472,
-                    "duration" : 128,
+                    "start" : 444,
+                    "duration" : 129,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -778,15 +819,15 @@
                 "trackIndex" : 6,
                 "medias" : [
                   {
-                    "id" : 19,
+                    "id" : 25,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 39.3159452044093,
+                      "height" : 61.0,
                       "line-spacing" : 0.0,
-                      "width" : 174.496339639318,
+                      "width" : 270.736889642542,
                       "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
@@ -807,7 +848,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"fgColor","rangeEnd":6,"rangeStart":0,"value":"(255,90,0,255)","valueType":"color"},{"name":"fontSize","rangeEnd":6,"rangeStart":0,"value":96,"valueType":"double"},{"name":"kerning","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontWeight","rangeEnd":6,"rangeStart":0,"value":400,"valueType":"int"},{"name":"strikethrough","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":6,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontItalic","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"}],
+                            "value" : [{"name":"underline","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":6,"rangeStart":0,"value":"(255,90,0,255)","valueType":"color"},{"name":"fontName","rangeEnd":6,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontItalic","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":6,"rangeStart":0,"value":400,"valueType":"int"},{"name":"kerning","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontSize","rangeEnd":6,"rangeStart":0,"value":60,"valueType":"double"}],
                             "duration" : 0
                           }
                         ]
@@ -817,8 +858,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -336.314591242227,
-                      "translation1" : -27.130655248263
+                      "translation0" : 49.5544291222116,
+                      "translation1" : -21.0331165135631
                     },
                     "effects" : [
 
@@ -834,6 +875,7 @@
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
+                      "default-text-attributes" : "[{\"name\":\"fgColor\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":\"(255,90,0,255)\",\"valueType\":\"color\"},{\"name\":\"fontSize\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":96,\"valueType\":\"double\"},{\"name\":\"kerning\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"},{\"name\":\"fontWeight\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"},{\"name\":\"strikethrough\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"underline\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontName\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":\"Adobe Kaiti Std R\",\"valueType\":\"string\"},{\"name\":\"fontItalic\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"}]",
                       "default-translation0" : -82.5,
                       "default-translation1" : -3.00000000001286
                     },
@@ -842,50 +884,32 @@
                     }
                   },
                   {
-                    "id" : 20,
+                    "id" : 26,
                     "_type" : "IMFile",
-                    "src" : 6,
+                    "src" : 11,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 4th"
+                      "ident" : "logo 6"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 482,
-                    "duration" : 118,
+                    "start" : 450,
+                    "duration" : 123,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -897,7 +921,7 @@
                 "trackIndex" : 7,
                 "medias" : [
                   {
-                    "id" : 21,
+                    "id" : 27,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -936,8 +960,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -84.5144927159028,
-                      "translation1" : 17.6509383606682
+                      "translation0" : 403.643887677526,
+                      "translation1" : -34.029323856546
                     },
                     "effects" : [
 
@@ -961,50 +985,32 @@
                     }
                   },
                   {
-                    "id" : 22,
+                    "id" : 28,
                     "_type" : "IMFile",
-                    "src" : 5,
+                    "src" : 10,
                     "trackNumber" : 0,
-                    "trimStartSum" : -1,
+                    "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 3rd"
+                      "ident" : "logo 5"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 491,
-                    "duration" : 109,
+                    "start" : 455,
+                    "duration" : 118,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -1016,15 +1022,15 @@
                 "trackIndex" : 8,
                 "medias" : [
                   {
-                    "id" : 23,
+                    "id" : 29,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 44.781593608944,
+                      "height" : 71.0,
                       "line-spacing" : 0.0,
-                      "width" : 218.141501534769,
+                      "width" : 345.857424017069,
                       "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
@@ -1045,7 +1051,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"fontWeight","rangeEnd":5,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontSize","rangeEnd":5,"rangeStart":0,"value":96,"valueType":"double"},{"name":"underline","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fgColor","rangeEnd":5,"rangeStart":0,"value":"(255,246,0,255)","valueType":"color"},{"name":"strikethrough","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":5,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontItalic","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"}],
+                            "value" : [{"name":"fgColor","rangeEnd":5,"rangeStart":0,"value":"(255,246,0,255)","valueType":"color"},{"name":"fontWeight","rangeEnd":5,"rangeStart":0,"value":400,"valueType":"int"},{"name":"kerning","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":5,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontSize","rangeEnd":5,"rangeStart":0,"value":70,"valueType":"double"},{"name":"strikethrough","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"}],
                             "duration" : 0
                           }
                         ]
@@ -1055,8 +1061,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -335.137172189874,
-                      "translation1" : 14.6852895268462
+                      "translation0" : 205.036054940342,
+                      "translation1" : 12.4668835650934
                     },
                     "effects" : [
 
@@ -1072,6 +1078,7 @@
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
+                      "default-text-attributes" : "[{\"name\":\"fontWeight\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"},{\"name\":\"fontSize\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":96,\"valueType\":\"double\"},{\"name\":\"underline\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"kerning\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"},{\"name\":\"fgColor\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":\"(255,246,0,255)\",\"valueType\":\"color\"},{\"name\":\"strikethrough\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontName\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":\"Adobe Kaiti Std R\",\"valueType\":\"string\"},{\"name\":\"fontItalic\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"}]",
                       "default-translation0" : -82.5,
                       "default-translation1" : -3.00000000001286
                     },
@@ -1080,50 +1087,32 @@
                     }
                   },
                   {
-                    "id" : 24,
+                    "id" : 30,
                     "_type" : "IMFile",
-                    "src" : 4,
+                    "src" : 9,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 2nd"
+                      "ident" : "logo 4"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 503,
-                    "duration" : 97,
+                    "start" : 459,
+                    "duration" : 114,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -1135,15 +1124,15 @@
                 "trackIndex" : 9,
                 "medias" : [
                   {
-                    "id" : 25,
+                    "id" : 31,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 45.0,
+                      "height" : 67.5000002664011,
                       "line-spacing" : 0.0,
-                      "width" : 219.205409588283,
+                      "width" : 213.205409588301,
                       "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
@@ -1174,8 +1163,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -318.814588252844,
-                      "translation1" : 102.500000000032
+                      "translation0" : -30.7423613682206,
+                      "translation1" : 97.9751436464514
                     },
                     "effects" : [
 
@@ -1199,50 +1188,32 @@
                     }
                   },
                   {
-                    "id" : 26,
+                    "id" : 32,
                     "_type" : "IMFile",
-                    "src" : 3,
+                    "src" : 8,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 1st"
+                      "ident" : "logo 3"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 515,
-                    "duration" : 85,
+                    "start" : 464,
+                    "duration" : 109,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -1254,7 +1225,7 @@
                 "trackIndex" : 10,
                 "medias" : [
                   {
-                    "id" : 27,
+                    "id" : 33,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -1293,8 +1264,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -141.748492526673,
-                      "translation1" : 57.4668823332938
+                      "translation0" : 160.463044560051,
+                      "translation1" : 97.3261834423114
                     },
                     "effects" : [
 
@@ -1318,50 +1289,32 @@
                     }
                   },
                   {
-                    "id" : 28,
+                    "id" : 34,
                     "_type" : "IMFile",
-                    "src" : 4,
+                    "src" : 7,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 2nd"
+                      "ident" : "logo 2"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 525,
-                    "duration" : 75,
+                    "start" : 469,
+                    "duration" : 104,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -1373,15 +1326,15 @@
                 "trackIndex" : 11,
                 "medias" : [
                   {
-                    "id" : 29,
+                    "id" : 35,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 41.0,
+                      "height" : 74.6790696763465,
                       "line-spacing" : 0.0,
-                      "width" : 171.915538744253,
+                      "width" : 195.560474166255,
                       "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
@@ -1402,7 +1355,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"fgColor","rangeEnd":5,"rangeStart":0,"value":"(175,130,32,255)","valueType":"color"},{"name":"fontItalic","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":5,"rangeStart":0,"value":400,"valueType":"int"},{"name":"strikethrough","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"double"},{"name":"underline","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":5,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontSize","rangeEnd":5,"rangeStart":0,"value":40,"valueType":"double"}],
+                            "value" : [{"name":"fgColor","rangeEnd":5,"rangeStart":0,"value":"(175,130,32,255)","valueType":"color"},{"name":"fontName","rangeEnd":5,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontItalic","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":5,"rangeStart":0,"value":60,"valueType":"double"},{"name":"kerning","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"double"},{"name":"strikethrough","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":5,"rangeStart":0,"value":400,"valueType":"int"},{"name":"underline","rangeEnd":5,"rangeStart":0,"value":0,"valueType":"int"}],
                             "duration" : 0
                           }
                         ]
@@ -1412,8 +1365,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -337.481255105413,
-                      "translation1" : 63.5991986164681
+                      "translation0" : -25.4307574868761,
+                      "translation1" : 46.9668834864356
                     },
                     "effects" : [
 
@@ -1429,6 +1382,7 @@
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
+                      "default-text-attributes" : "[{\"name\":\"fgColor\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":\"(175,130,32,255)\",\"valueType\":\"color\"},{\"name\":\"fontItalic\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontWeight\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"},{\"name\":\"strikethrough\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"kerning\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"},{\"name\":\"underline\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontName\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":\"Adobe Kaiti Std R\",\"valueType\":\"string\"},{\"name\":\"fontSize\",\"rangeEnd\":5,\"rangeStart\":0,\"value\":40,\"valueType\":\"double\"}]",
                       "default-translation0" : -82.5,
                       "default-translation1" : -3.00000000001286
                     },
@@ -1437,49 +1391,32 @@
                     }
                   },
                   {
-                    "id" : 30,
+                    "id" : 36,
                     "_type" : "IMFile",
-                    "src" : 2,
+                    "src" : 12,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "logo 2"
+                      "ident" : "logo1"
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : -171.600000000027,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -6.89575128077501,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.61185185185169,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
                     },
                     "effects" : [
 
                     ],
-                    "start" : 537,
-                    "duration" : 63,
+                    "start" : 473,
+                    "duration" : 100,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-rotation2" : 0.0,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
+                      "default-scale0" : 0.266666666666667,
+                      "default-scale1" : 0.266666666666667,
                       "default-translation0" : 0.0,
                       "default-translation1" : 0.0
                     },
@@ -1493,7 +1430,7 @@
                 "trackIndex" : 12,
                 "medias" : [
                   {
-                    "id" : 31,
+                    "id" : 37,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -1522,7 +1459,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"fontItalic","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":7,"rangeStart":0,"value":24,"valueType":"double"},{"name":"strikethrough","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":7,"rangeStart":0,"value":"(255,0,6,255)","valueType":"color"},{"name":"underline","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":7,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontWeight","rangeEnd":7,"rangeStart":0,"value":400,"valueType":"int"},{"name":"kerning","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"double"}],
+                            "value" : [{"name":"fontWeight","rangeEnd":7,"rangeStart":0,"value":400,"valueType":"int"},{"name":"kerning","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"double"},{"name":"strikethrough","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":7,"rangeStart":0,"value":"(255,0,6,255)","valueType":"color"},{"name":"underline","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontName","rangeEnd":7,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontSize","rangeEnd":7,"rangeStart":0,"value":30,"valueType":"double"},{"name":"fontItalic","rangeEnd":7,"rangeStart":0,"value":0,"valueType":"int"}],
                             "duration" : 0
                           }
                         ]
@@ -1532,8 +1469,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -233.066420180623,
-                      "translation1" : 56.607892680914
+                      "translation0" : 221.12664439124,
+                      "translation1" : -40.349061372916
                     },
                     "effects" : [
 
@@ -1549,8 +1486,41 @@
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
+                      "default-text-attributes" : "[{\"name\":\"fontItalic\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontSize\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":24,\"valueType\":\"double\"},{\"name\":\"strikethrough\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fgColor\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":\"(255,0,6,255)\",\"valueType\":\"color\"},{\"name\":\"underline\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontName\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":\"Adobe Kaiti Std R\",\"valueType\":\"string\"},{\"name\":\"fontWeight\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"},{\"name\":\"kerning\",\"rangeEnd\":7,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"}]",
                       "default-translation0" : -82.5,
                       "default-translation1" : -3.00000000001286
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 38,
+                    "_type" : "IMFile",
+                    "src" : 7,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 2"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 478,
+                    "duration" : 95,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -1562,7 +1532,7 @@
                 "trackIndex" : 13,
                 "medias" : [
                   {
-                    "id" : 32,
+                    "id" : 39,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -1591,7 +1561,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"fontSize","rangeEnd":6,"rangeStart":0,"value":26,"valueType":"double"},{"name":"fontName","rangeEnd":6,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontWeight","rangeEnd":6,"rangeStart":0,"value":400,"valueType":"int"},{"name":"kerning","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontItalic","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":6,"rangeStart":0,"value":"(241,173,26,255)","valueType":"color"}],
+                            "value" : [{"name":"underline","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontWeight","rangeEnd":6,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontName","rangeEnd":6,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fontSize","rangeEnd":6,"rangeStart":0,"value":26,"valueType":"double"},{"name":"fontItalic","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":6,"rangeStart":0,"value":"(241,173,26,255)","valueType":"color"}],
                             "duration" : 0
                           }
                         ]
@@ -1601,8 +1571,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -240.399199479855,
-                      "translation1" : 21.6260826731982
+                      "translation0" : -67.3873006978719,
+                      "translation1" : -0.533116434908438
                     },
                     "effects" : [
 
@@ -1624,6 +1594,38 @@
                     "animationTracks" : {
 
                     }
+                  },
+                  {
+                    "id" : 40,
+                    "_type" : "IMFile",
+                    "src" : 8,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 3"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 484,
+                    "duration" : 89,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
+                    },
+                    "animationTracks" : {
+
+                    }
                   }
                 ]
               },
@@ -1631,13 +1633,13 @@
                 "trackIndex" : 14,
                 "medias" : [
                   {
-                    "id" : 33,
+                    "id" : 41,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 62.7232992928254,
+                      "height" : 69.3899659594956,
                       "line-spacing" : 0.0,
                       "width" : 221.653096029592,
                       "word-wrap" : 1.0,
@@ -1660,7 +1662,7 @@
                           {
                             "endTime" : 0,
                             "time" : 0,
-                            "value" : [{"name":"fontName","rangeEnd":6,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"fgColor","rangeEnd":6,"rangeStart":0,"value":"(175,130,32,255)","valueType":"color"},{"name":"underline","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":6,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontSize","rangeEnd":6,"rangeStart":0,"value":44,"valueType":"double"},{"name":"strikethrough","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"kerning","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"double"}],
+                            "value" : [{"name":"fontWeight","rangeEnd":6,"rangeStart":0,"value":400,"valueType":"int"},{"name":"strikethrough","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":6,"rangeStart":0,"value":50,"valueType":"double"},{"name":"fgColor","rangeEnd":6,"rangeStart":0,"value":"(175,130,32,255)","valueType":"color"},{"name":"kerning","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"double"},{"name":"fontName","rangeEnd":6,"rangeStart":0,"value":"Adobe Kaiti Std R","valueType":"string"},{"name":"underline","rangeEnd":6,"rangeStart":0,"value":0,"valueType":"int"}],
                             "duration" : 0
                           }
                         ]
@@ -1670,8 +1672,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : -217.908373874795,
-                      "translation1" : -17.9805471153399
+                      "translation0" : 205.138218934091,
+                      "translation1" : -83.94925923476
                     },
                     "effects" : [
 
@@ -1687,8 +1689,41 @@
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
+                      "default-text-attributes" : "[{\"name\":\"fontName\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":\"Adobe Kaiti Std R\",\"valueType\":\"string\"},{\"name\":\"fgColor\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":\"(175,130,32,255)\",\"valueType\":\"color\"},{\"name\":\"underline\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontWeight\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"},{\"name\":\"fontSize\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":44,\"valueType\":\"double\"},{\"name\":\"strikethrough\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontItalic\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"kerning\",\"rangeEnd\":6,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"}]",
                       "default-translation0" : -82.5,
                       "default-translation1" : -3.00000000001286
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 42,
+                    "_type" : "IMFile",
+                    "src" : 9,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 4"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 489,
+                    "duration" : 84,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
                     },
                     "animationTracks" : {
 
@@ -1700,7 +1735,7 @@
                 "trackIndex" : 15,
                 "medias" : [
                   {
-                    "id" : 34,
+                    "id" : 43,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -1710,13 +1745,13 @@
                       "fill-color-green" : 0.772549019607843,
                       "fill-color-opacity" : 1.0,
                       "fill-color-red" : 1.0,
-                      "height" : 239.999999999998,
+                      "height" : 249.698116362116,
                       "stroke-color-blue" : 1.0,
                       "stroke-color-green" : 1.0,
                       "stroke-color-opacity" : 1.0,
                       "stroke-color-red" : 1.0,
                       "stroke-width" : 0.0,
-                      "width" : 344.000000000061,
+                      "width" : 401.985289181597,
                       "fill-style" : "solid",
                       "stroke-style" : "solid"
                     },
@@ -1724,8 +1759,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : 217.999999999946,
-                      "translation1" : -3.64863694812811e-12
+                      "translation0" : -318.757350472972,
+                      "translation1" : 0.150935247406188
                     },
                     "effects" : [
 
@@ -1756,7 +1791,7 @@
                     "reverse" : false,
                     "useAudioPreRoll" : true,
                     "useVisualPreRoll" : true,
-                    "rightMedia" : 34
+                    "rightMedia" : 43
                   }
                 ]
               },
@@ -1764,15 +1799,15 @@
                 "trackIndex" : 16,
                 "medias" : [
                   {
-                    "id" : 35,
+                    "id" : 44,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : 120.0,
+                      "height" : 142.676469638703,
                       "line-spacing" : 0.0,
-                      "width" : 382.222222222169,
+                      "width" : 392.810457516361,
                       "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
@@ -1803,8 +1838,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : 217.999999999928,
-                      "translation1" : 30.0991986165082
+                      "translation0" : -313.500001097163,
+                      "translation1" : 37.1286487457156
                     },
                     "effects" : [
 
@@ -1819,6 +1854,7 @@
                       "default-HAlign" : "center",
                       "default-LineSpace" : 0.0,
                       "default-VAlign" : "center",
+                      "default-rotation2" : 0.0,
                       "default-text-attributes" : "[{\"name\":\"fontName\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":\"Montserrat\",\"valueType\":\"string\"},{\"name\":\"strikethrough\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontWeight\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":400,\"valueType\":\"int\"},{\"name\":\"kerning\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":0,\"valueType\":\"double\"},{\"name\":\"fgColor\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":\"(255,255,255,255)\",\"valueType\":\"color\"},{\"name\":\"fontItalic\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"},{\"name\":\"fontSize\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":40,\"valueType\":\"double\"},{\"name\":\"underline\",\"rangeEnd\":16,\"rangeStart\":0,\"value\":0,\"valueType\":\"int\"}]",
                       "default-translation0" : 0.0,
                       "default-translation1" : 0.0
@@ -1836,7 +1872,7 @@
                     "reverse" : false,
                     "useAudioPreRoll" : true,
                     "useVisualPreRoll" : true,
-                    "rightMedia" : 35
+                    "rightMedia" : 44
                   }
                 ]
               },
@@ -1844,62 +1880,26 @@
                 "trackIndex" : 17,
                 "medias" : [
                   {
-                    "id" : 36,
+                    "id" : 45,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
                       "shape" : "text",
                       "style" : "basic",
-                      "height" : {
-                        "type" : "double",
-                        "defaultValue" : 45.0,
-                        "interp" : "linr"
-                      },
-                      "line-spacing" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "width" : {
-                        "type" : "double",
-                        "defaultValue" : 575.235387797991,
-                        "interp" : "linr"
-                      },
-                      "word-wrap" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
+                      "height" : 45.0,
+                      "line-spacing" : 0.0,
+                      "width" : 575.235387797991,
+                      "word-wrap" : 1.0,
                       "horizontal-alignment" : "center",
                       "resize-behavior" : "resizeText",
                       "text" : "\rSale terms vary. See listings for details\r",
                       "vertical-alignment" : "center",
                       "font" : {
-                        "color-blue" : {
-                          "type" : "double",
-                          "defaultValue" : 1.0,
-                          "interp" : "linr"
-                        },
-                        "color-green" : {
-                          "type" : "double",
-                          "defaultValue" : 1.0,
-                          "interp" : "linr"
-                        },
-                        "color-red" : {
-                          "type" : "double",
-                          "defaultValue" : 1.0,
-                          "interp" : "linr"
-                        },
-                        "size" : {
-                          "type" : "double",
-                          "defaultValue" : 96.0,
-                          "interp" : "linr"
-                        },
-                        "tracking" : {
-                          "type" : "double",
-                          "defaultValue" : 0.0,
-                          "interp" : "linr"
-                        },
+                        "color-blue" : 1.0,
+                        "color-green" : 1.0,
+                        "color-red" : 1.0,
+                        "size" : 96.0,
+                        "tracking" : 0.0,
                         "name" : "Montserrat",
                         "weight" : "Regular"
                       },
@@ -1919,16 +1919,8 @@
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : 232.84549006838,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -98.4661294888489,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : -318.375044372052,
+                      "translation1" : -94.7542762550034
                     },
                     "effects" : [
 
@@ -1960,17 +1952,273 @@
                     "reverse" : false,
                     "useAudioPreRoll" : true,
                     "useVisualPreRoll" : true,
-                    "rightMedia" : 36
+                    "rightMedia" : 45
                   }
                 ]
               },
               {
                 "trackIndex" : 18,
                 "medias" : [
+                  {
+                    "id" : 46,
+                    "_type" : "IMFile",
+                    "src" : 10,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 5"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 494,
+                    "duration" : 79,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
                 ]
               },
               {
                 "trackIndex" : 19,
+                "medias" : [
+                  {
+                    "id" : 47,
+                    "_type" : "IMFile",
+                    "src" : 11,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 6"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 499,
+                    "duration" : 74,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 20,
+                "medias" : [
+                  {
+                    "id" : 48,
+                    "_type" : "IMFile",
+                    "src" : 10,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 5"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 506,
+                    "duration" : 67,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 21,
+                "medias" : [
+                  {
+                    "id" : 49,
+                    "_type" : "IMFile",
+                    "src" : 9,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 4"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 512,
+                    "duration" : 61,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 22,
+                "medias" : [
+                  {
+                    "id" : 50,
+                    "_type" : "IMFile",
+                    "src" : 8,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 3"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 519,
+                    "duration" : 54,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 23,
+                "medias" : [
+                  {
+                    "id" : 51,
+                    "_type" : "IMFile",
+                    "src" : 7,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo 2"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 527,
+                    "duration" : 46,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-translation0" : 232.941176470404,
+                      "default-translation1" : -10.2444723334613
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 24,
+                "medias" : [
+                  {
+                    "id" : 52,
+                    "_type" : "IMFile",
+                    "src" : 12,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "logo1"
+                    },
+                    "parameters" : {
+                      "translation0" : 198.274509803605,
+                      "translation1" : -7.89153115702661,
+                      "scale0" : 0.193028322440003,
+                      "scale1" : 0.193028322440003
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 534,
+                    "duration" : 66,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 0.266666666666667,
+                      "default-scale1" : 0.266666666666667,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 25,
                 "medias" : [
                 ]
               }
@@ -1980,6 +2228,66 @@
       ]
     },
     "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
       {
         "ident" : "",
         "audioMuted" : false,
@@ -2197,8 +2505,8 @@
     "backgroundColor" : [ 0, 0, 0, 255]
   },
   "metadata" : {
-    "AutoSaveFile" : "C:\\Users\\Guy\\AppData\\Local\\TechSmith\\Camtasia Studio\\19.0\\Auto-Saves\\Bannercf96a3.autosave.tscproj",
-    "CanvasZoom" : 50,
+    "AutoSaveFile" : "C:\\Users\\Guy\\AppData\\Local\\TechSmith\\Camtasia Studio\\19.0\\Auto-Saves\\Banner18d71616.autosave.tscproj",
+    "CanvasZoom" : 75,
     "Date" : "2019-12-01 11:18:28 AM",
     "Fit" : 0,
     "IsAutoSave" : "0",
