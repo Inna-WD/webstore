@@ -1,45 +1,33 @@
+
+
+
+
 /* header container grid */
 .grid-container-mobile {
     display: grid;
-    grid-auto-columns: auto  30px 30px  30px 30px 30px;
-    grid: gap 1px;
+    grid-auto-columns: 180px auto  1fr 1fr 1fr 1fr 1fr;
+    /* grid: gap 1px; */
   }
 .logo{
       grid-column-start: 1;
-      grid-column-end: 4;
-      height: 30px;
+      height: 60px;
 }
 .fav-header{
     grid-column-start: 8;
-    grid-column-end: 9;
-    height: 30px;
-    width: 30px;
 }
 .notification-header{
     grid-column-start: 9;
-    grid-column-end: 10;
-    height: 30px;
-    width: 30px;
 }
 .cart-header{
     grid-column-start: 10;
-    grid-column-end: 11;
-    height: 30px;
-    width: 30px;
-}
 
+}
 .user-header{
     grid-column-start: 11;
-    grid-column-end: 12;
-    height: 30px;
-    width: 30px;
-}
 
+}
 .shop-header{
-    grid-column-start: 12;
-    /* position: fixed; */
-    height: 30px;
-    width: 30px;
+    grid-column-start: 7;
 
 }
 
@@ -72,6 +60,12 @@
     margin:0.1 30px 0.1 30px;
 }
 
+/* checkbox  */
+.checkbox{
+    margin: 0 0 0 5em;
+    background-color: turquoise;
+}
+/* product container  */
 .product {
     font-family: 'Montserrat', sans-serif;
     background-color: white;

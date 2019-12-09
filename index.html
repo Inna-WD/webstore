@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>My craft store</title>
   <meta name="My crafts" content="All you need to be crafty">
   <meta name="IM" content="Inna Manova">
-  <link rel="stylesheet" href="css/reset.css"> 
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
   <link href="https://fonts.googleapis.com/css?family=Ruda&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/index.css">
 </head>
@@ -18,34 +20,18 @@
 <body>
 
   <header>
-
     <!-- IM --- navidation menu -->
     <span class="grid-container-mobile">
       <img class="logo" src="img/logo-assets/logo 2.png" alt="logo">
-      <img class="fav-header" src="img/favorite.png" alt="favorite">
-      <img class="notification-header" src="img/notification.png" alt="notification">
-      <img class="cart-header" src="img/cart.png" alt="cart">
-      <img class="user-header" src="img/user.png" alt="user">
-      <!-- <img class="shop-header" src="img/store.png" alt="shop" href="https://ynet.co.il"> -->
-      <a href="https://ynet.co.il"><img src="img/store.png" width="30" height="30"  alt="shop"></a>
+
+      <img class="fav-header" src="img/favorite.png" width=30px alt="favorite">
+      <img class="notification-header" src="img/notification.png" width=30px alt="notification">
+      <img class="cart-header" src="img/cart.png" width=30px alt="cart">
+      <img class="user-header" src="img/user.png" width=30px alt="user">
+      <a href="https://ynet.co.il"><img class="shop-header" src="img/store.png" width=30px alt="shop"></a>
     </span>
 
-    <!-- Navigation menu and toggle button (example)
-    <nav aria-label="Primary">
-      <ul>
-        <li><a href="#">Webpage</a>
-          <ul>
-            <li><a href="#">Subpage</a></li>
-            <li><a href="#">Subpage</a></li>
-            <li><a href="#">Subpage</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Webpage</a></li>
-        <li><a href="#">Webpage</a></li>
-        <li><a href="#">Webpage</a></li>
-      </ul>
-    </nav>
-    -->
+
 
     <!-- Search the site -->
     <form class="grid-container-search">
@@ -62,12 +48,17 @@
         <br>
         <form>
           <fieldset class="filter-container" id="colourFilter">
-            <ul> By color
-              <input type="checkbox" name="colour" value="black" id="black"> <label for="black">Black</label>
-              <input type="checkbox" name="colour" value="white" id="white"> <label for="white">White</label>
-              <input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey">Grey</label>
-              <input type="checkbox" name="colour" value="red" id="red"> <label for="red">Red</label>
-              <input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue">Blue</label>
+            <ul > By color 
+              <input class="checkbox2" type="checkbox" name="colour" value="black" id="black"  > <label for="black"></label>
+              <img src="img/icons/black.png" width=20px alt="black">
+              <input type="checkbox" name="colour" value="white" id="white"> <label for="white"></label>
+              <img src="img/icons/white.png" width=20px alt="white">
+              <input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey"></label>
+              <img src="img/icons/grey.png" width=20px alt="grey">
+              <input type="checkbox" name="colour" value="red" id="red"> <label for="red" ></label>
+              <img src="img/icons/red.png" width=20px alt="red">
+              <input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue"></label>
+              <img src="img/icons/blue.png" width=20px alt="blue">
               <button type="button" onclick="getFilteredProducts()"><span>Filter by color</span></button>
             </ul>
           </fieldset>
@@ -100,4 +91,3 @@
 </body>
 
 </html>
-
