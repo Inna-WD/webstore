@@ -4,67 +4,75 @@
 
 /* header container grid */
 .grid-container-mobile {
-    display: grid;
-    grid-auto-columns: 180px auto  1fr 1fr 1fr 1fr 1fr;
-    /* grid: gap 1px; */
+    display: inline-block;
+    align-content: left;
+ 
   }
 .logo{
       grid-column-start: 1;
-      height: 60px;
+      height: 3em;
 }
-.fav-header{
-    grid-column-start: 8;
-}
-.notification-header{
-    grid-column-start: 9;
-}
-.cart-header{
-    grid-column-start: 10;
 
-}
-.user-header{
-    grid-column-start: 11;
-
-}
-.shop-header{
-    grid-column-start: 7;
-
-}
+/* .fav-header{
+    transition: all 0.3s ease;
+} */
 
 /* search container grid */
 .grid-container-search {
     font-family: 'Montserrat', sans-serif;
     display: grid;
-    grid-auto-columns: 30px auto 30px;
+    grid-auto-columns: 3em auto 3em;
     grid: gap 1px;
 }
   .menu{
     font-family: 'Montserrat', sans-serif;
       grid-column-start: 1;
       grid-column-end: 2;
-      height: 30px;
+      height: 3em;
 }
   .toggle-view{
     font-family: 'Montserrat', sans-serif;
         grid-column-start: 12;
-        height: 30px;
+        height: 3em;
         justify-self: start;
 }
 
 
 /* filters container  */
 .filter-container{
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color:#ffff99;
-    padding:0.5em;
-    margin:0.1 30px 0.1 30px;
+    padding: 0.25em 3em 0.25em 3em;
+    /* margin:0.1 30px 0.1 5em; */
 }
 
 /* checkbox  */
-.checkbox{
-    margin: 0 0 0 5em;
-    background-color: turquoise;
+.checkbox2{
+    margin: 0 0 0 1em;
 }
+.checkbox1{
+    margin: 0 0 0 0.5em;
+}
+.checkbox3{
+    margin: 0 0 0 2em;
+
+}
+
+
+/* button format  */
+.filterButton{
+    /* font-family: 'Montserrat', sans-serif; */
+    display:inline-block;
+    height: 2em;
+    width: 10em;
+    align-self: right;
+    background-color: #BA2C2A;
+    color: white;
+    vertical-align: middle;
+    /* padding: 0.5em; */
+}
+
+
 /* product container  */
 .product {
     font-family: 'Montserrat', sans-serif;

@@ -20,7 +20,7 @@
 <body>
 
   <header>
-    <!-- IM --- navidation menu -->
+    <!-- --- navidation menu -->
     <span class="grid-container-mobile">
       <img class="logo" src="img/logo-assets/logo 2.png" alt="logo">
 
@@ -43,32 +43,76 @@
 
     <main>
       <header>
-        <!-- <h1>Sale on [Category Name]</h1> -->
         <!-- Filtering product form -->
         <br>
+        <!-- <table style="width:100%">
+          <tr>
+            <th>By color</th>
+            <th><input class="checkbox3" type="checkbox" name="colour" value="black" id="black"> <label
+                for="black"></label>
+              <img src="img/icons/black.png" width=20px alt="black"></th>
+            <th><input class="checkbox2" type="checkbox" name="colour" value="white" id="white"> <label
+                for="white"></label>
+              <img src="img/icons/white.png" width=20px alt="white"></th>
+            <th><input class="checkbox2" type="checkbox" name="colour" value="grey" id="grey"> <label
+                for="grey"></label>
+              <img src="img/icons/grey.png" width=20px alt="grey"></th>
+            <th><input class="checkbox2" type="checkbox" name="colour" value="red" id="red"> <label for="red"></label>
+              <img src="img/icons/red.png" width=20px alt="red"></th>
+              <th><input class="checkbox2" type="checkbox" name="colour" value="blue" id="blue"> <label
+                  for="blue"></label>
+                <img src="img/icons/blue.png" width=20px alt="blue"></th>
+              <th><button class="checkbox2 filterButton" type="button" onclick="getFilteredProducts()"><span>Filter by color</span></button></th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+        </table> -->
+
+
+
+
+
+
+
+
         <form>
           <fieldset class="filter-container" id="colourFilter">
-            <ul > By color 
-              <input class="checkbox2" type="checkbox" name="colour" value="black" id="black"  > <label for="black"></label>
+            <ul> By color
+              <input class="checkbox3" type="checkbox" name="colour" value="black" id="black"> <label
+                for="black"></label>
               <img src="img/icons/black.png" width=20px alt="black">
-              <input type="checkbox" name="colour" value="white" id="white"> <label for="white"></label>
+              <input class="checkbox2" type="checkbox" name="colour" value="white" id="white"> <label
+                for="white"></label>
               <img src="img/icons/white.png" width=20px alt="white">
-              <input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey"></label>
+              <input class="checkbox2" type="checkbox" name="colour" value="grey" id="grey"> <label for="grey"></label>
               <img src="img/icons/grey.png" width=20px alt="grey">
-              <input type="checkbox" name="colour" value="red" id="red"> <label for="red" ></label>
+              <input class="checkbox2" type="checkbox" name="colour" value="red" id="red"> <label for="red"></label>
               <img src="img/icons/red.png" width=20px alt="red">
-              <input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue"></label>
+              <input class="checkbox2" type="checkbox" name="colour" value="blue" id="blue"> <label for="blue"></label>
               <img src="img/icons/blue.png" width=20px alt="blue">
-              <button type="button" onclick="getFilteredProducts()"><span>Filter by color</span></button>
+              <button class="checkbox2 filterButton" type="button" onclick="getFilteredProducts()"><span>Filter by
+                  color</span></button>
             </ul>
           </fieldset>
 
           <fieldset class="filter-container" id="materialFilter">
             <ul> By material
-              <input type="checkbox" name="material" value="stone" id="stone"> <label for="stone">Stone</label>
-              <input type="checkbox" name="material" value="glass" id="glass"> <label for="glass">Glass</label>
-              <input type="checkbox" name="material" value="acrylic" id="acrylic"> <label for="acrylic">Acrylic</label>
-              <button type="button" onclick="getFilteredProducts()"><span>Filter by material</span></button>
+              <input class="checkbox1" type="checkbox" name="material" value="stone" id="stone"> <label
+                for="stone">Stone</label>
+              <input class="checkbox1" type="checkbox" name="material" value="glass" id="glass"> <label
+                for="glass">Glass</label>
+              <input class="checkbox1" type="checkbox" name="material" value="acrylic" id="acrylic"> <label
+                for="acrylic">Acrylic</label>
+              <button class="checkbox2 filterButton" type="button" onclick="getFilteredProducts()"><span>Filter by
+                  material</span></button>
             </ul>
           </fieldset>
 
@@ -79,6 +123,7 @@
               <option value="price-low">Price, lowest to highest</option>
               <option value="fav">Your favorite items</option>
             </select>
+            <br>
           </fieldset>
 
           <main>
