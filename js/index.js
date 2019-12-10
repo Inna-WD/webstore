@@ -1,3 +1,6 @@
+
+// declaring all the elements and defining them as an array with 
+
 const allProducts = [
     {
         id: `bp1`,
