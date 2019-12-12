@@ -20,27 +20,36 @@
 
   <!-- --- navidation menu -->
   <span class="grid-container-mobile">
-    <a href="#"></a><img class="logo" src="img/logo-assets/logo 2.png" alt="logo">
-    <a href="#"></a><img class="fav-header" src="img/favorite.png" width=30px alt="favorite">
-    <a href="#"></a><img class="notification-header" src="img/notification.png" width=30px alt="notification">
-    <a href="#"></a><img class="cart-header" src="img/cart.png" width=30px alt="cart">
-    <a href="#"></a><img class="user-header" src="img/user.png" width=30px alt="user">
+    <a href="#"><img class="logo" src="img/logo-assets/logo 2.png" alt="logo"></a>
+    <a href="#"><img class="fav-header" src="img/favorite.png" width=30px alt="favorite"></a>
+    <a href="#"><img class="notification-header" src="img/notification.png" width=30px alt="notification"></a>
+    <a href="#"><img class="cart-header" src="img/cart.png" width=30px alt="cart"></a>
+    <a href="#"><img class="user-header" src="img/user.png" width=30px alt="user"></a>
     <a href="#"><img class="shop-header" src="img/store.png" width=30px alt="shop"></a>
   </span>
 
-  <!-- Search the site -->
+  <!-- Search the site section -->
   <form class="grid-container-search">
     <img class="menu" src="img/menu.png" alt="menu">
     <input type="search" name="find" id="find">
     <button type="button" onclick="getFilteredProducts()"><span class="material-icons">search</span></button>
     <img class="toggle-view" src="img/list.png" alt="list">
   </form>
+<br>
+<div class="banner">
+  <div><img src="banner/banner.gif" alt="banner"></div>
+  <div class="sale white-txt">
+      <a href="#">
+        <p>Subscribe to our newsletter</p>
+        <p>Holiday ideas inside</p>
+        <p>Click here >></p>
+      </a> 
+  </div>
+</div>
 
-
-    <img src="banner/banner.gif" alt="banner">
     <!-- Filtering product form -->
     <br>
-
+<!-- filter by colors  -->
     <form>
       <fieldset class="filter-container" id="colourFilter">
         <ul> By color
@@ -58,7 +67,7 @@
               color</span></button>
         </ul>
       </fieldset>
-
+<!-- filter by material  -->
       <fieldset class="filter-container" id="materialFilter">
         <ul> By material
           <input class="checkbox1" type="checkbox" name="material" value="stone" id="stone"> <label
@@ -71,7 +80,7 @@
               material</span></button>
         </ul>
       </fieldset>
-
+<!-- sort by price or favorites  -->
       <fieldset class="filter-container">
         <label for="sort">Show</label>
         <select name="sort" id="sort" onchange="getFilteredProducts()">

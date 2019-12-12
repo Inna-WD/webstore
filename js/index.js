@@ -333,23 +333,29 @@ const allProducts = [
 const getProductAsHtmlString = product => {
     return `
       <article class="product">
-      <p>Id: <strong>${product.id}</strong></p>
+
+      <div> 
+          <img src="${product.image}">
+      </div>
+      <div>
+        <p>Id: <strong>${product.id}</strong></p>
         <h3 class="productTitle">${product.name}</h3>
+        <br>
+        Product description: <strong >${product.desc}</strong>
+        <br>
         <ul>
-          <li>Product description: <strong>${product.desc}</strong></li>
           <li>Color: <strong>${product.color} </strong></li>
           <li>Material: <strong>${product.material} </strong></li>
           <li> Sold by: ${product.soldBy}</li>
-          
-                    <li> Category: ${product.category}</li>
-          <li><img src="${product.image}"></li>
+          <li> Category: ${product.category}</li>
           <li>$ ${product.price}      <a href="#">More ...</a>
           <button class="qtyButton"> - </button><span> 0 </span><button class="qtyButton"> + </button>
           <img class="fav-product" src="img/favorite.png" alt="favorite">
           <img class="fav-product" src="img/cart.png" alt="cart">
           Qty: ${product.quantity}</li>
-       
           </ul>
+          </div>
+   
       </article>`;
 }
 // building an array of the checked values with a loop  and then populating the array with the accepted values
@@ -366,9 +372,9 @@ const getCheckedValues = id => {
 };
 // defining which type of sort the user has chosen 
 const getSortingType = () => {
-     const select = document.getElementById("sort");
-     let optionValue = select.value;
-     return optionValue;
+    const select = document.getElementById("sort");
+    let optionValue = select.value;
+    return optionValue;
 
 }
 // defining which word the user typed in the serch bar 
@@ -393,7 +399,7 @@ const getFilteredProducts = () => {
         filteredProducts = filteredProducts.filter(product => materialValues.includes(product.material));
     }
 
-    // Sort
+    // Sort by 3 defined types in the drop menu
     const sortingType = getSortingType();
 
     switch (sortingType) {
