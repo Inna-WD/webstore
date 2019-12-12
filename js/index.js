@@ -329,7 +329,7 @@ const allProducts = [
         image: "img/redproduct5.png"
     }
 ];
-
+// building the format of the output of the product 
 const getProductAsHtmlString = product => {
     return `
       <article class="product">
@@ -340,17 +340,19 @@ const getProductAsHtmlString = product => {
           <li>Color: <strong>${product.color} </strong></li>
           <li>Material: <strong>${product.material} </strong></li>
           <li> Sold by: ${product.soldBy}</li>
-          <li> Qty in stock: ${product.quantity}</li>
-          <li> Category: ${product.category}</li>
-          <li> Favorite: ${product.favorite}</li>
+          
+                    <li> Category: ${product.category}</li>
           <li><img src="${product.image}"></li>
-          <li>$ ${product.price}     <a href="#">     More --></a>
+          <li>$ ${product.price}      <a href="#">More ...</a>
+          <button class="qtyButton"> - </button><span> 0 </span><button class="qtyButton"> + </button>
           <img class="fav-product" src="img/favorite.png" alt="favorite">
-          <img class="fav-product" src="img/cart.png" alt="cart"></li>
+          <img class="fav-product" src="img/cart.png" alt="cart">
+          Qty: ${product.quantity}</li>
+       
           </ul>
       </article>`;
 }
-
+// building an array of the checked values with a loop  and then populating the array with the accepted values
 const getCheckedValues = id => {
     let checkedValues = [];
     const inputSet = document.getElementById(id);
@@ -362,21 +364,21 @@ const getCheckedValues = id => {
     };
     return checkedValues;
 };
-
+// defining which type of sort the user has chosen 
 const getSortingType = () => {
      const select = document.getElementById("sort");
      let optionValue = select.value;
      return optionValue;
 
 }
-
+// defining which word the user typed in the serch bar 
 const getSearchType = () => {
     const searchInput = document.getElementById("find");
     const searchInputValue = searchInput.value;
     return searchInputValue;
 
 }
-
+// executing the filtering according to the previously populated array 
 const getFilteredProducts = () => {
 
     // Filter
@@ -406,11 +408,9 @@ const getFilteredProducts = () => {
                 if (a.favorite === b.favorite) {
                     return 0;
                 };
-
                 if (a.favorite === true) {
                     return -1;
                 };
-
                 return 1;
             });
             break;

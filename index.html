@@ -18,153 +18,145 @@
 
 <body>
 
-  <header>
-    <!-- --- navidation menu -->
-    <span class="grid-container-mobile">
-      <a href="#"></a><img class="logo" src="img/logo-assets/logo 2.png" alt="logo">
+  <!-- --- navidation menu -->
+  <span class="grid-container-mobile">
+    <a href="#"></a><img class="logo" src="img/logo-assets/logo 2.png" alt="logo">
+    <a href="#"></a><img class="fav-header" src="img/favorite.png" width=30px alt="favorite">
+    <a href="#"></a><img class="notification-header" src="img/notification.png" width=30px alt="notification">
+    <a href="#"></a><img class="cart-header" src="img/cart.png" width=30px alt="cart">
+    <a href="#"></a><img class="user-header" src="img/user.png" width=30px alt="user">
+    <a href="#"><img class="shop-header" src="img/store.png" width=30px alt="shop"></a>
+  </span>
 
-      <a href="#"></a><img class="fav-header" src="img/favorite.png" width=30px alt="favorite">
-      <a href="#"></a><img class="notification-header" src="img/notification.png" width=30px alt="notification">
-      <a href="#"></a><img class="cart-header" src="img/cart.png" width=30px alt="cart">
-      <a href="#"></a><img class="user-header" src="img/user.png" width=30px alt="user">
-      <a href="#"><img class="shop-header" src="img/store.png" width=30px alt="shop"></a>
-    </span>
+  <!-- Search the site -->
+  <form class="grid-container-search">
+    <img class="menu" src="img/menu.png" alt="menu">
+    <input type="search" name="find" id="find">
+    <button type="button" onclick="getFilteredProducts()"><span class="material-icons">search</span></button>
+    <img class="toggle-view" src="img/list.png" alt="list">
+  </form>
 
 
+    <img src="banner/banner.gif" alt="banner">
+    <!-- Filtering product form -->
+    <br>
 
-    <!-- Search the site -->
-    <form class="grid-container-search">
-      <img class="menu" src="img/menu.png" alt="menu">
-      <input type="search" name="find" id="find">
-      <button type="button" onclick="getFilteredProducts()"><span class="material-icons">search</span></button>
-      <img class="toggle-view" src="img/list.png" alt="list">
+    <form>
+      <fieldset class="filter-container" id="colourFilter">
+        <ul> By color
+          <input class="checkbox3" type="checkbox" name="colour" value="black" id="black"> <label for="black"></label>
+          <img src="img/icons/black.png" width=20px alt="black">
+          <input class="checkbox2" type="checkbox" name="colour" value="white" id="white"> <label for="white"></label>
+          <img src="img/icons/white.png" width=20px alt="white">
+          <input class="checkbox2" type="checkbox" name="colour" value="grey" id="grey"> <label for="grey"></label>
+          <img src="img/icons/grey.png" width=20px alt="grey">
+          <input class="checkbox2" type="checkbox" name="colour" value="red" id="red"> <label for="red"></label>
+          <img src="img/icons/red.png" width=20px alt="red">
+          <input class="checkbox2" type="checkbox" name="colour" value="blue" id="blue"> <label for="blue"></label>
+          <img src="img/icons/blue.png" width=20px alt="blue">
+          <button class="checkbox2 filterButton" type="button" onclick="getFilteredProducts()"><span>Filter by
+              color</span></button>
+        </ul>
+      </fieldset>
+
+      <fieldset class="filter-container" id="materialFilter">
+        <ul> By material
+          <input class="checkbox1" type="checkbox" name="material" value="stone" id="stone"> <label
+            for="stone">Stone</label>
+          <input class="checkbox1" type="checkbox" name="material" value="glass" id="glass"> <label
+            for="glass">Glass</label>
+          <input class="checkbox1" type="checkbox" name="material" value="acrylic" id="acrylic"> <label
+            for="acrylic">Acrylic</label>
+          <button class="checkbox2 filterButton" type="button" onclick="getFilteredProducts()"><span>Filter by
+              material</span></button>
+        </ul>
+      </fieldset>
+
+      <fieldset class="filter-container">
+        <label for="sort">Show</label>
+        <select name="sort" id="sort" onchange="getFilteredProducts()">
+          <option value="price-high">Price, highest to lowest</option>
+          <option value="price-low">Price, lowest to highest</option>
+          <option value="fav">Your favorite items</option>
+        </select>
+        <br>
+      </fieldset>
     </form>
 
-    <main>
-      <header>
-        <img src="banner/banner.gif" alt="banner">
-        <!-- Filtering product form -->
-        <br>
+      <main>
+        <section id="products"></section>
+      </main>
 
-        <form>
-          <fieldset class="filter-container" id="colourFilter">
-            <ul> By color
-              <input class="checkbox3" type="checkbox" name="colour" value="black" id="black"> <label
-                for="black"></label>
-              <img src="img/icons/black.png" width=20px alt="black">
-              <input class="checkbox2" type="checkbox" name="colour" value="white" id="white"> <label
-                for="white"></label>
-              <img src="img/icons/white.png" width=20px alt="white">
-              <input class="checkbox2" type="checkbox" name="colour" value="grey" id="grey"> <label for="grey"></label>
-              <img src="img/icons/grey.png" width=20px alt="grey">
-              <input class="checkbox2" type="checkbox" name="colour" value="red" id="red"> <label for="red"></label>
-              <img src="img/icons/red.png" width=20px alt="red">
-              <input class="checkbox2" type="checkbox" name="colour" value="blue" id="blue"> <label for="blue"></label>
-              <img src="img/icons/blue.png" width=20px alt="blue">
-              <button class="checkbox2 filterButton" type="button" onclick="getFilteredProducts()"><span>Filter by
-                  color</span></button>
-            </ul>
-          </fieldset>
+      <footer class="footer-Container1 ">
+        <h1 class="title">What is Mycrafts</h1>
+        <section>
+          <ul>
+            <p>A one-of-a-kind creative community</p>
+            <p>Support independent creators</p>
+            <p>Peace of mind</p>
+            <p class='white-txt'>MyCrafts is a global online marketplace, where people come together to make,
+              sell,buy, and collect unique items.</p>
+          </ul>
+        </section>
+      </footer>
+      <section class="footer-Container2">
+        <div>
+          <ul>
+            <h3>Shop</h3><br>
+            <a href="#">Gift Cards</a><br>
+            <a href="#">Blog</a><br>
+            <a href="#">Journal</a><br>
+          </ul>
+        </div>
 
-          <fieldset class="filter-container" id="materialFilter">
-            <ul> By material
-              <input class="checkbox1" type="checkbox" name="material" value="stone" id="stone"> <label
-                for="stone">Stone</label>
-              <input class="checkbox1" type="checkbox" name="material" value="glass" id="glass"> <label
-                for="glass">Glass</label>
-              <input class="checkbox1" type="checkbox" name="material" value="acrylic" id="acrylic"> <label
-                for="acrylic">Acrylic</label>
-              <button class="checkbox2 filterButton" type="button" onclick="getFilteredProducts()"><span>Filter by
-                  material</span></button>
-            </ul>
-          </fieldset>
+        <div>
+          <ul>
+            <h3>Sell</h3>
+            <a href="#">Seller handbook</a><br>
+            <a href="#">Teams</a><br>
+            <a href="#">Forums</a><br>
+            <a href="#">Affiliates</a><br>
+          </ul>
+        </div>
 
-          <fieldset class="filter-container">
-            <label for="sort">Show</label>
-            <select name="sort" id="sort" onchange="getFilteredProducts()">
-              <option value="price-high">Price, highest to lowest</option>
-              <option value="price-low">Price, lowest to highest</option>
-              <option value="fav">Your favorite items</option>
-            </select>
-            <br>
-          </fieldset>
+        <div>
+          <ul>
+            <h3>About</h3>
+            <a href="#">MyCrafts, Inc.</a><br>
+            <a href="#">Policies</a><br>
+            <a href="#">Investors</a><br>
+            <a href="#">Carrers</a><br>
+          </ul>
+        </div>
 
-          <main>
-            <section id="products"></section>
-          </main>
+        <div>
+          <ul>
+            <h3>Help</h3>
+            <a href="#">Help Center</a><br>
+            <a href="#">Privacy settings</a><br>
+          </ul>
+        </div>
+      </section>
 
-          <footer class="footer-Container1 ">
-            <h1 class="title">What is Mycrafts</h1>
-            <section>
-              <ul>
-                <p>A one-of-a-kind creative community</p>
-                <p>Support independent creators</p>
-                <p>Peace of mind</p>
-                <p class='white-txt'>MyCrafts is a global online marketplace, where people come together to make,
-                  sell,buy, and collect unique items.</p>
-              </ul>
-            </section>
-          </footer>
-          <section class="footer-Container2">
-            <div>
-              <ul>
-                <h3>Shop</h3><br>
-                <a href="#">Gift Cards</a><br>
-                <a href="#">Blog</a><br>
-                <a href="#">Journal</a><br>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <h3>Sell</h3>
-                <a href="#">Seller handbook</a><br>
-                <a href="#">Teams</a><br>
-                <a href="#">Forums</a><br>
-                <a href="#">Affiliates</a><br>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <h3>About</h3>
-                <a href="#">MyCrafts, Inc.</a><br>
-                <a href="#">Policies</a><br>
-                <a href="#">Investors</a><br>
-                <a href="#">Carrers</a><br>
-              </ul>
-            </div>
-
-            <div>
-              <ul>
-                <h3>Help</h3>
-                <a href="#">Help Center</a><br>
-                <a href="#">Privacy settings</a><br>
-              </ul>
-            </div>
-          </section>
-
-          <section class="footer-Container3">
-            <div>
-              <img src="img/canada.gif" width=30px alt="canada">
-              Canada | English (US) | $(CAD)
-            </div>
-            <div>
-              © 2019 MyCrafts, Inc.
-            </div>
-            <div>
-              <a href="#">Terms of Use</a><br>
-            </div>
-            <div>
-              <a href="#"> Privacy</a><br>
-            </div>
-
-          </section>
+      <section class="footer-Container3">
+        <div>
+          <img src="img/canada.gif" width=30px alt="canada">
+          Canada | English (US) | $(CAD)
+        </div>
+        <div>
+          © 2019 MyCrafts, Inc.
+        </div>
+        <div>
+          <a href="#">Terms of Use</a><br>
+        </div>
+        <div>
+          <a href="#"> Privacy</a><br>
+        </div>
+      </section>
 
 
-</html>
 
-<script src="js/index.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
